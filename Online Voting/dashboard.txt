@@ -1,0 +1,49 @@
+<?php
+session_start();
+if(!isset($_SESSION['userdata']))
+{
+     header("location:../");
+}
+?>
+
+<html>
+<head>
+<title>Online Voting System</title>
+<style>
+body{
+text-align:center;
+background-color:#b8e994;
+}
+#headerSection
+{
+   padding:5px;
+}
+#backbtn{
+padding:5px;
+border-radius:5px;
+background-color:#3498db;
+color:white;
+}
+
+
+#logoutbtn{
+padding:5px;
+border-radius:5px;
+background-color:#3498db;
+color:white;
+}
+
+</head>
+<body>
+<div id="headerSection">
+<button id="backbtn">Back</button>
+<button id="logoutbtn">Logout</button>
+<h1>Online Voting System</h1>
+</div>
+<hr>
+<div id="profile">
+</div>
+<div id="Group"></div>
+</body>
+
+</html>
