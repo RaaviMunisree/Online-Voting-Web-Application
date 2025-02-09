@@ -1,0 +1,23 @@
+body{
+text-align:center;
+background-color:#b8e994;
+}
+#headerSection
+{
+   padding:5px;
+}
+input{
+padding:10px;
+border-radius:5px;
+}
+#dropbox{
+padding:10px;
+border-radius:5px;
+width:30%;
+}
+#loginbtn{
+padding:5px;
+border-radius:5px;
+background-color:#45dbfb;
+color:white;
+}
